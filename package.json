@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "npx playwright test"
-}
-,
+    "test": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@playwright/test": "^1.49.1",
     "playwright": "^1.49.1",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
   }
 }
